@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombie Run</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<header>
+    <div class="container navbar">
+        <div class="logo">
+            <img src="imagens/logo.png" alt="Zombie Run Logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#jogar" class="btn destaque">Jogar</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<section id="home" class="banner">
+    <div class="container">
+        <h2>Bem-vindo ao Zombie Run</h2>
+        <p>Prepare-se para a corrida pela sua sobrevivência em um mundo infestado de zumbis!</p>
+        <a href="#jogar" class="btn">Jogar</a>
+    </div>
+</section>
+
+<section id="sobre" class="content">
+    <div class="container">
+        <h2>Sobre o Zombie Run</h2>
+        <p>Zombie Run é um jogo emocionante onde você deve escapar de hordas de zumbis, superar obstáculos e lutar
+            pela sua sobrevivência. Com gráficos envolventes e jogabilidade viciante, é diversão garantida para
+            todos os fãs de jogos de ação.</p>
+    </div>
+</section>
+
+<section id="galeria" class="content">
+    <div class="container">
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria">
+            <img src="imagens/galeria1.jpg" alt="Cena do jogo Zombie Run">
+            <img src="imagens/galeria2.jpg" alt="Personagem principal em ação">
+            <img src="imagens/galeria3.jpg" alt="Ambiente pós-apocalíptico do jogo">
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="content">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Tem alguma dúvida ou sugestão? Entre em contato conosco!</p>
+        <form action="enviar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Zombie Run. Todos os direitos reservados.</p>
+    </div>
+</footer>
+</body>
+
+</html>
